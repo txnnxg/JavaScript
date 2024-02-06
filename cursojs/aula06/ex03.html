@@ -7,27 +7,38 @@
     <style>
         body {
             background-color: rgb(105, 105, 173);
-            color: white;
-            font: normal 20pt Arial;
+            text-align: center;
         }
         h1 {
-            color: yellow;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3em;
         }
-        p {
+        div {
+            text-align: center;
             font-family: 'Times New Roman', Times, serif;
             color: aliceblue;
+            background-color: black;
+            width: 300px;
+            height: 150px;
+            border: 5px solid white;
+            border-radius: 10px;
+            margin: auto;
+            font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <h1>Seja bem vindo ao site</h1>
-    <p id="resultado"></p>
+    <h1>Seja bem vindo ao site <br>
+        do Natan
+    </h1>
+    <div id="resultado"></div>
     <script>
         var nome = window.prompt('Fale seu nome: ')
         var n1 = Number(window.prompt('Digite um número: '))
         var n2 = Number(window.prompt('Digite outro numero: '))
         var s = n1 + n2 
-        document.getElementById("resultado").innerHTML = `${s} é o resultado da conta ${nome}`
+        document.getElementById("resultado").innerHTML = `O resultado da conta é ${s} obrigado pela visita ${nome}`
     </script>
 </body>
 </html>
