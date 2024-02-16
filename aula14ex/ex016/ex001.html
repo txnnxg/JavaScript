@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de exercicio</title>
+    <title>Super Contador</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -14,14 +14,14 @@
     </header>
     
         <section>
-            <div>
-               Inicio: <input type="number" id="n1"> <br>
-               Fim <input type="number" id="n2"> <br>
-               Passo <input type="number" id="pulo"> <br>
-                <input type="button" value="Contar" id="botao" onclick="clicou()">
+            <div id="dados">
+                <p>Inicio: <input type="number" name="incio" id="txti"></p>
+                <p>Fim: <input type="number" name="fim" id="txtf"></p>
+                <p>Passo: <input type="number" name="passo" id="txtp"></p>
+                <p><input type="button" value="Contar" onclick="contar()"></p>
             </div>
-            <div id="msg">
-                Mensagem
+            <div id="res">
+                Preparando a contagem
             </div>
         </section>
 
