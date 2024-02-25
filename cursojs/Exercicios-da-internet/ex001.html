@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+</head>
+<body>
+    <h1>Somando dois números</h1>
+    <div id="eve" onclick="clicou()">Iniciar a Somando</div>
+    <div id="res">O resultado vem aqui...</div>
+    <script>
+        
+        function clicou() {   
+           var r = window.document.getElementById('res')
+           var num1 = window.prompt('Digite um número: ')
+           var num2 = window.prompt('Digite o segundo número: ')
+           var n1 = Number(num1.value)
+           var n2 = Number(num2.value)
+           var s = n1 + n2 
+           r.innerHTML = s
+        }
+        
+    </script>
+</body>
+</html>
