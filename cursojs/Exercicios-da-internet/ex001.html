@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somando Números</title>
+    <style>
+        body {
+        font: normal 18pt Arial;
+        }
+        div#eve {
+            width: 160px;
+        }
+    </style>
 </head>
 <body>
     <h1>Somando dois números</h1>
-    <div id="eve" onclick="clicou()">Iniciar a Somando</div>
+    <div id="eve">Iniciar a Soma</div>
     <div id="res">O resultado vem aqui...</div>
     <script>
-        
+        var soma = window.document.getElementById('eve')
+        soma.addEventListener('click', clicou)
+        soma.addEventListener('mouseenter', entrou)
+        soma.addEventListener('mouseout', saiu)
         function clicou() {   
            var r = window.document.getElementById('res')
            var num1 = window.prompt('Digite um número: ')
            var num2 = window.prompt('Digite o segundo número: ')
-           var n1 = Number(num1.value)
-           var n2 = Number(num2.value)
+           var n1 = parseFloat(num1)
+           var n2 = parseFloat(num2)
            var s = n1 + n2 
-           r.innerHTML = s
+           r.innerText = `O resultado de ${n1} + ${n2} é ${s}`
+        }
+
+        function entrou() {
+            soma.style.background = 'black'
+            soma.style.color = 'white'
+        }
+
+        function saiu() {
+            soma.style.background = 'green'
         }
         
     </script>
