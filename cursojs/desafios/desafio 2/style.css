@@ -12,19 +12,15 @@ section {
       padding: 15px;
       width: 500px;
       margin: auto;
-     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+}
+div {
+    text-align: center;
+    padding: 10px;
 }
 footer {
     color: white;
     text-align: center;
     font-style: italic;
 }
-/* img#imagem {
-    width: 100%;
-    max-width: 300px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-} */ 
+
