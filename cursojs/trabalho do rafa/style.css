@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: mont;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    text-align: center;
+}
+header > h1 {
+    margin: auto;
+    font-family: mont;
+    font-weight: 500;
+    width: 800px;
+    padding-top: 20px;
+}
+header {
+    height: 200px;
+    background-color: antiquewhite;
+    font-family: ;
+}
+main {
+    height: 730px;
+    width: 730px;
+    background-color: rgba(0, 0, 0, 0.377);
+    text-align: center;
+    margin: auto;
+
+}
+footer {
+    height: 58px;
+    background-color: aquamarine;
+}
