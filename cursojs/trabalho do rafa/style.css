@@ -21,15 +21,24 @@ header {
     background-color: antiquewhite;
     font-family: ;
 }
+nav {
+    position: relative;
+    right: 680px;
+    top: 30px;
+}
 main {
     height: 730px;
     width: 730px;
     background-color: rgba(0, 0, 0, 0.377);
     text-align: center;
     margin: auto;
-
 }
+main > div > p {
+    margin: 0px;
+} 
 footer {
     height: 58px;
     background-color: aquamarine;
+    border-radius: 20px 20px 0px 0px;
+
 }
