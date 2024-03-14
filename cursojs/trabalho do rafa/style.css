@@ -9,6 +9,13 @@ body {
     text-align: center;
     margin: 0px;
 }
+header {
+    height: 200px;
+    background-color: antiquewhite;
+    margin-bottom: 47px;
+    min-width: 300px;
+    text-align: center;
+}
 header > h1 {
     margin: auto;
     font-family: mont;
@@ -16,18 +23,15 @@ header > h1 {
     max-width: 800px;
     padding-top: 20px;
 }
-header {
-    height: 200px;
-    background-color: antiquewhite;
-    margin-bottom: 47px;
-    min-width: 300px;
-    
-    text-align: center;
+header > p {
+    font-size: 1.5em;
+    margin: auto;
 }
+
 nav {
     position: relative;
-    right: 487px;
-    top: 30px;
+    right: 518px;
+    top: 77px;
     display: block;
     
 }
