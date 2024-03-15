@@ -30,12 +30,11 @@ header > p {
 }
 nav#box {
     position: relative;
-    right: 491px;
-    top: 73px;
+    right: 487px;
+    top: 30px;
+    right: 413px;
+    top: 77px;
     display: block;
-    margin: auto;
-    max-width: 1000px;
-    
 }
 nav#box > a {
     padding: 10px 28px 19px 34px;
@@ -51,9 +50,7 @@ nav#box > a:hover {
     background-color: #0367A6;
     color: #00b7ff;
 }
-@media screen (max-width: 1000px){
-    nav#box{display: none;}
-}
+
 main {
     margin: 10px 10px 10px 10px;
     background-color: #049DD9;
