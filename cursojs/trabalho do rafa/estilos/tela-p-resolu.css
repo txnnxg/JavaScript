@@ -1,0 +1,35 @@
+@media screen and (max-width: 860px) {
+    nav#box {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px){
+    nav#box {
+        position: relative;
+        right: 487px;
+        top: 30px;
+        right: 219px;
+        top: 77px;
+        display: block;
+    }
+}
+@media screen and (min-width: 1230px) {
+    nav#box {
+        position: relative;
+        right: 487px;
+        top: 30px;
+        right: 330px;
+        top: 77px;
+        display: block;
+    }
+}
+@media screen and (min-width: 1480px) {
+    nav#box {
+        position: relative;
+        right: 487px;
+        top: 30px;
+        right: 442px;
+        top: 77px;
+        display: block;
+    }
+}
