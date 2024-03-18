@@ -1,35 +1,29 @@
 @media screen and (max-width: 860px) {
-    nav#box {
-        display: none;
+    img#foto {
+        height: 100px;
+        position: relative;
+        right: 661px;
     }
 }
 @media screen and (min-width: 1000px){
-    nav#box {
+    img#foto {
+        height: 100px;
         position: relative;
-        right: 487px;
-        top: 30px;
-        right: 219px;
-        top: 77px;
-        display: block;
+        right: 661px;
     }
 }
-@media screen and (min-width: 1230px) {
-    nav#box {
+@media screen and (min-width: 1000px) {
+    img#foto {
+        height: 100px;
         position: relative;
-        right: 487px;
-        top: 30px;
-        right: 330px;
-        top: 77px;
-        display: block;
+        right: 433px;
     }
 }
-@media screen and (min-width: 1480px) {
-    nav#box {
+@media screen and (min-width: 1210px) {
+    img#foto {
+        height: 100px;
         position: relative;
-        right: 487px;
-        top: 30px;
-        right: 442px;
-        top: 77px;
-        display: block;
+        right: 553px;
     }
-}
+    }
+

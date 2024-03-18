@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: mont;
-    src: url(Montserrat-VariableFont_wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: rgb(255, 255, 255);
@@ -15,45 +12,13 @@ header {
     min-width: 300px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    padding-top: 10px;
 }
-header > h1 {
-    margin: auto;
-    font-family: mont;
-    font-weight: 500;
-    max-width: 800px;
-    padding-top: 20px;
-}
-header > p {
-    font-size: 1.5em;
-    margin: auto;
-    
-}
-div#menu {
-    margin: auto;
-}
-nav#box {
+img#foto1 {
+    height: 100px;
     position: relative;
-    right: 487px;
-    top: 30px;
-    right: 413px;
-    top: 77px;
-    display: block;
-}
-nav#box > a {
-    padding: 10px 28px 19px 34px;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 1s;
-    color: rgb(0, 0, 0);
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.349);
-}
-nav#box > a:hover {
-    background-color: #0367A6;
-    color: #00b7ff;
-}
-
+    right: 661px;
+} 
 main {
     background-color: #049DD9;
     margin: auto;
@@ -64,16 +29,29 @@ main {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-section > h1 {
-    text-align: left;
+img#foto02 {
+    max-width: 100%;
+    border-radius: 20px;
 }
-section > p {
-    font-family: mont;
-    font-size: 1.5em;
-    text-align: justify;
-
-
+section#s1 {
+    text-align: center;
+}
+h1#t1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+p#p1 {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 2.0em;
+    font-weight: 500;
 } 
+section > p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.0em;
+}
 footer {
     height: 58px;
     background-color: aquamarine;
