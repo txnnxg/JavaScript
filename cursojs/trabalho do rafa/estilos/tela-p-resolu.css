@@ -1,29 +1,29 @@
-@media screen and (max-width: 860px) {
-    img#foto {
+@media screen and (min-width: 500px) {
+    img#foto1 {
         height: 100px;
         position: relative;
-        right: 661px;
+        right: 185px;
     }
 }
-@media screen and (min-width: 1000px){
-    img#foto {
+@media screen and (min-width: 1024px){
+    img#foto1 {
         height: 100px;
         position: relative;
-        right: 661px;
+        right: 438px;
     }
 }
-@media screen and (min-width: 1000px) {
-    img#foto {
+@media screen and (min-width: 1420px) {
+    img#foto1 {
         height: 100px;
         position: relative;
-        right: 433px;
+        right: 640px;
     }
 }
-@media screen and (min-width: 1210px) {
-    img#foto {
+@media screen and (min-width: 1900px) {
+    img#foto1 {
         height: 100px;
         position: relative;
-        right: 553px;
+        right: 873px;
     }
     }
 
