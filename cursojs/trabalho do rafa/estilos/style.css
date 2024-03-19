@@ -24,19 +24,30 @@ main {
     margin: auto;
     min-width: 300px;
     max-width: 1394px;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-img#foto02 {
-    max-width: 100%;
+section#s1 {
+    text-align: center;
+    background-image: url('../imagens/foto-bb-2.jpg');
+    height: 600px;
+    max-width: 1000px;
+    margin: auto;
+    background-position: center top;
     border-radius: 20px;
-    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
-    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
     background-attachment: fixed;
 }
-section#s1 {
+div {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-shadow: 1px 1px 0px black;
     text-align: center;
 }
 h1#t1 {
@@ -45,19 +56,30 @@ h1#t1 {
     font-size: 2.5em;
     font-weight: 500;
 }
-p#p1 {
+div > p#p1 {
     margin: 0px;
     margin-bottom: 20px;
     font-size: 2.0em;
     font-weight: 500;
+    font-family: "Montserrat", sans-serif;
 } 
+section {
+    margin: auto;
+    max-width: 1000px;
+    text-align: justify;
+}
+section > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2em;
+}
 section > p {
     font-family: "Montserrat", sans-serif;
     font-size: 2.0em;
 }
 footer {
     height: 58px;
-    background-color: aquamarine;
+    background-color: #0385b8;
     border-radius: 20px 20px 0px 0px;
+    text-align: center;
 
 }
