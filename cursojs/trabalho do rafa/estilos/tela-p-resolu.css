@@ -4,12 +4,21 @@
         position: relative;
         right: 185px;
     }
+
 }
 @media screen and (min-width: 1024px){
     img#foto1 {
         height: 100px;
         position: relative;
         right: 438px;
+    }
+}
+@media screen and (max-width: 1060px){
+    section#s1:after {
+        display: none;
+    }
+        footer {
+        border-radius: 0px;
     }
 }
 @media screen and (min-width: 1420px) {
