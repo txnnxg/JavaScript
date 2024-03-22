@@ -20,9 +20,9 @@ img#foto1 {
     right: 661px;
 } 
 h1#nome {
+    display: inline-block;
     margin: auto;
     font-family: "Cookie", cursive;
-    max-width: 500px;
     background-color: white;
     border-radius: 50px;
     padding: 10px;  
