@@ -3,6 +3,9 @@
     img#des {
         width: 100%;
     }
+    h1#t1 {
+        font-size: 2em;
+    }
 }
 @media screen and (min-width: 500px) {
     img#foto1 {
