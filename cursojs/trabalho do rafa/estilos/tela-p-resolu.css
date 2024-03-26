@@ -4,6 +4,10 @@
         position: relative;
         right: 68px;
     }
+    img#des {
+        position: relative;
+        left: 40px;
+    }
 }
 @media screen and (max-width: 1060px){
     section#s1:after {

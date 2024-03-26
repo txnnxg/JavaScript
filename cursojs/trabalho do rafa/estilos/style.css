@@ -14,11 +14,15 @@ header {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     padding: 10px;
 }
-img#foto1 {
-    height: 100px;
-    position: relative;
-    right: 661px;
-} 
+img#des{
+    float: right;
+    border-style: outset;
+    border-color: aliceblue;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    max-width: 450px;
+}
 h1#nome {
     display: inline-block;
     margin: auto;
@@ -37,26 +41,6 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
-section#s1 {
-    background-image: url('../imagens/foto-bb-2.jpg');
-    height: 600px;
-    max-width: 1000px;
-    margin: auto;
-    background-position: center top;
-    border-radius: 20px;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
-    background-attachment: fixed;
-}
-section#s1:after {
-    content: "";
-    height: 600px;
-    width: 1000px;
-    position: absolute;
-    z-index: 8;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000d0 100% );
-    margin: auto;
-    border-radius: 20px;
 }
 div#titulo {
     background-color: rgba(0, 0, 0, 0.534);
@@ -85,6 +69,7 @@ section {
     margin: auto;
     max-width: 1000px;
     text-align: justify;
+    padding: 30px;
 }
 section > h1 {
     font-family: "Montserrat", sans-serif;
@@ -93,6 +78,9 @@ section > h1 {
 section > p {
     font-family: "Montserrat", sans-serif;
     font-size: 2.0em;
+}
+p#p2 {
+    text-align: left;
 }
 footer {
     height: 58px;
