@@ -1,3 +1,8 @@
+@media screen and (min-width: 300px) {
+    img#des {
+        width: 100%;
+    }
+}
 @media screen and (min-width: 500px) {
     img#foto1 {
         height: 100px;
