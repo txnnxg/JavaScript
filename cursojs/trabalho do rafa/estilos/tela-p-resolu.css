@@ -17,6 +17,9 @@
         position: relative;
         left: 40px;
     }
+    section {
+        font-size: 1em;
+    }
 }
 @media screen and (max-width: 1060px){
     section#s1:after {
