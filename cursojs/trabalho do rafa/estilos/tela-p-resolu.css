@@ -7,6 +7,14 @@
         font-size: 2em;
     }
 }
+@media screen and (max-width: 500px) {
+    section {
+        font-size: 1em;
+    }
+    img.fot {
+        width: 70vw;
+    }
+}
 @media screen and (min-width: 500px) {
     img#foto1 {
         height: 100px;
@@ -16,9 +24,6 @@
     img#des {
         position: relative;
         left: 40px;
-    }
-    section {
-        font-size: 1em;
     }
 }
 @media screen and (max-width: 1060px){
